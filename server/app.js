@@ -1,5 +1,6 @@
 const express = require('express')
 require('express-async-errors')
+const path = require('path') 
 const app = express()
 const cors = require('cors')
 const mongoose = require('mongoose')
@@ -36,6 +37,11 @@ app.use(tokenExtactor)
 app.use('/api/blogs', blogRouter)
 app.use('/api/users', userRouter)
 app.use('/api/login', loginRouter)
+
+app.get('*', (req, res) => {
+    res.sendFile(path.join(__dirname + '/dist/index.html'));
+  });
+
 app.use(errorHandler)
 
 module.exports = app
