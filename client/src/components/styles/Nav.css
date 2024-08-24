@@ -1,0 +1,67 @@
+.nav {
+    position:sticky;
+    width: 100%;
+    top: 0;
+    display: flex;
+    /* justify-content: space-between; */
+    padding: 1rem ;
+    background-color: rgb(19, 24, 66);
+    
+    align-items: center;
+    color: white;
+    margin-bottom: 1.5rem;
+}
+
+.nav__title {
+    margin: auto;
+    cursor: pointer;
+}
+
+.nav__right {
+    display: flex;
+    gap: 1rem;
+}
+
+.nav__about {
+    font-weight: 600;
+    cursor: pointer;
+    align-self: center;
+}
+
+.nav__about:hover {
+    color: rgb(213, 78, 45);
+}
+
+.nav__logout:hover {
+    color: rgb(213, 78, 45);
+}
+.nav__btn {
+    background-color:rgb(213, 78, 45);
+    padding: 0.5rem;
+    border-radius: 0.2rem;
+    text-align: center;
+    font-weight: 500;
+    cursor: pointer;
+    color: white;
+    transition: 200ms;
+}
+
+.nav__logout {
+    background-color:rgb(19, 24, 66);
+    color: white;
+    cursor: pointer;
+}
+.nav__createnew:hover {
+    background-color: rgb(247, 49, 0);
+}
+.nav__user {
+    display: flex;
+    align-items: center;
+}
+
+
+.nav__username {
+    font-weight: 600;
+    color: rgb(255, 82, 38);
+    text-transform: uppercase;
+}

@@ -1,0 +1,10 @@
+.about__text {
+    font-size: 2rem;
+    text-align: center;
+    line-height: 2.5rem;
+    padding: 2rem;
+}
+
+.about__strong {
+    color: rgb(213, 78, 45);
+}

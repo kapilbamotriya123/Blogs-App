@@ -1,0 +1,15 @@
+.blog {
+  background-color: #fff;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.blog h3 {
+  margin-top: 0;
+}
+
+.blog p {
+  margin-bottom: 10px;
+}

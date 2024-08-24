@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+}
+
+button {
+    background: none;
+    border: none;
+    padding: 0;
+    background-color: yellow;
+}
+.container {
+    padding: 0 2rem;
+  }
+
+  .notification {
+    padding: 0.8rem 3rem;
+    background-color: rgb(66, 66, 66);
+    color: white;
+    border-radius: 0.3rem;
+    font-size:x-large;
+    animation: fadeInOut 3s; /* Add this line */
+  }
+  
+  .notification__wrapper {
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    top: 8rem;
+  }
+  
+  /* Add this animation keyframe */
+  @keyframes fadeInOut {
+    0% {
+      opacity: 0;
+    }
+    10% {
+      opacity: 1;
+    }
+    90% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }

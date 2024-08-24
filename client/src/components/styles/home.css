@@ -1,0 +1,24 @@
+.home__intro {
+    padding: 3rem;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.home__wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.home__btn {
+    background-color: rgb(213, 78, 45);
+    padding: 1rem 3rem ;
+    border-radius: 0.3rem;
+    color: white;
+    font-weight: 600;
+    font-size: 2rem;
+}
+.home__btn:hover {
+    background-color: rgb(255, 51, 0);
+}
