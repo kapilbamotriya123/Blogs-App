@@ -1,7 +1,7 @@
 const userRouter = require('express').Router()
 const { default: mongoose } = require('mongoose')
 const User = require('../models/user')
-const bcrypt = require('bcrypt')
+const bcrypt = require('bcryptjs')
 
 userRouter.post('/', async(request, response, next) => {
     const body = request.body
