@@ -11,3 +11,4 @@ Key learnings: RESTful API development, CRUD operations, user authentication, an
 
 Live demo:
 #  https://blogs-app-qr62.onrender.com/
+The site is hosted on a free web service, so it may go idle after an hour of inactivity.in that case it might take up to 50 seconds to load, so there's no need for concern.
